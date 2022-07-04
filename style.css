@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #f0f2f5;
+}
+
+.logo {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 250px;
+  width: 100%;
+}
+
+.box-login h3 {
+  text-align: center;
+}
+
+.box-login-users {
+  display: flex;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.box-login-user-single {
+  width: 31%;
+  margin-right: 2%;
+  position: relative;
+}
+
+.box-login-user-single img {
+  width: 100%;
+  display:block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.box-login-user-single p {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  margin: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+ .box-user-close {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+ }
+
+ .box-user-close span {
+  text-align: center;
+  padding: 0px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border-radius: 50%;
+ }
+
+.box-login-user-single:hover .box-user-close{
+  transform:scale(1.2,1.2)
+}
+
+.box-form {
+  margin: 40px auto;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.box-form input[type=email],
+.box-form input[type=password] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.box-form input[type=submit] {
+  background-color: #1877f2;
+  border: 0;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a.esqueceu-senha {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #1877f2
+}
+
+a.nova-conta {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  background-color: #42b72a;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
